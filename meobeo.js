@@ -1,10 +1,11 @@
 const disagreeTexts = [
     'Không 😒',
-    'Em chắc chứ? 😯',
+    'Iu đi tớ cho kẹo nà 🙄',
+    'Cậu chắc chứ? 😯',
     'Thật không? 🤔',
-    'Suy nghĩ lại đi 😅',
+    'Cậu suy nghĩ lại đi 😅',
     'Đừng từ chối mà 😢',
-    'Hoy iu anh đi màaa huhu 😢'
+    'Hoy iu tớ đi màaa huhu 😢'
 ];
 let currentTextIndex = 0;
 
@@ -28,4 +29,5 @@ document.getElementById('agree').addEventListener('click', function () {
     document.getElementById('answer-container').style.display = 'none';
     document.getElementById('question').textContent = 'Anh cũng iu em nhìu lémmm 😍';
     document.getElementById('question-img').src = 'https://gifdb.com/images/high/animated-bear-kiss-enngnq0gm2r405bt.webp';
+    document.getElementById('container').style.backgroundColor = '#fcfbfc';
 });
