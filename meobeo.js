@@ -27,7 +27,7 @@ document.getElementById('disagree').addEventListener('click', function () {
 
 document.getElementById('agree').addEventListener('click', function () {
     document.getElementById('answer-container').style.display = 'none';
-    document.getElementById('question').textContent = 'Anh cũng iu em nhìu lémmm 😍';
+    document.getElementById('question').textContent = 'Tớ cũng yêu cậu nhìu lémmm 😍';
     document.getElementById('question-img').src = 'https://gifdb.com/images/high/animated-bear-kiss-enngnq0gm2r405bt.webp';
     document.getElementById('container').style.backgroundColor = '#fcfbfc';
 });
